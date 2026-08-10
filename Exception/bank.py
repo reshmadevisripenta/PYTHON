@@ -1,0 +1,17 @@
+balance = 5000
+try:
+    amount = float(input("Enter withdrawal amount: "))
+    if amount <= 0:
+        raise ValueError("Withdrawal amount must be greater than zero.")
+    if amount > balance:
+        raise ValueError("Insufficient balance.")
+    balance = balance - amount
+except ValueError as error:
+    print("Transaction failed:", error)
+except ValueError as error:
+    print("Transaction failed:", error)
+else:
+    print("Withdrawal successful.")
+    print("Remaining balance:", balance)
+finally:
+    print("Thank you for using our banking service.")

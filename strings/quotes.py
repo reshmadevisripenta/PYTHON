@@ -1,0 +1,1 @@
+print("Trainer said, \"Practice Python daily\"")

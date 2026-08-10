@@ -1,0 +1,1 @@
+file = open("photo.jpg", "rb")

@@ -1,0 +1,1 @@
+file = open("student.txt", "rt")

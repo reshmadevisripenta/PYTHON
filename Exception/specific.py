@@ -1,0 +1,10 @@
+try:
+   number = int(input("Enter a number: "))
+   print(100 / number)
+
+except ValueError:
+   print("Please enter a valid integer.")
+except ZeroDivisionError:
+   print("Zero is not allowed.")
+except ZeroDivisionError:
+   print("Zero is not allowed.")
